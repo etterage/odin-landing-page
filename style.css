@@ -6,11 +6,13 @@ body{
     color: white;
 }
 
+
+/* HEADER */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 250px 0 250px;
+    padding: 0 300px 0 300px;
 }
 
 .logo {
@@ -28,4 +30,54 @@ body{
 
 .pages li {
     cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px 0 300px;
+    margin-top: 5%;
+    gap: 100px
+}
+
+.hero-caption {
+    max-width: 50%;
+}
+
+#hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-caption p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-caption button {
+    background-color: #3882F6;
+    height: 35px;
+    width: 115px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image img {
+    max-height: 100%;
+    width: 100%;
+    padding-top: 5px;
+    object-fit: fill;
 }
