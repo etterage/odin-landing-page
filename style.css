@@ -5,3 +5,27 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 250px 0 250px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.pages li {
+    cursor: pointer;
+}
