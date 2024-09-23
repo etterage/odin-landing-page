@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+body {
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
 }
-
 
 /* HEADER */
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 300px 0 300px;
+    padding: 0 200px 0 200px;
 }
 
 .logo {
@@ -37,9 +38,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 300px 0 300px;
-    margin-top: 5%;
-    gap: 100px
+    padding: 0 200px 0 200px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    gap: 100px;
 }
 
 .hero-caption {
@@ -63,7 +65,7 @@ body{
     height: 35px;
     width: 115px;
     border: none;
-    color: white;
+    color: #E5E7EB;
     font-size: 16px;
     font-weight: 600;
     border-radius: 6px;
@@ -80,4 +82,61 @@ body{
     width: 100%;
     padding-top: 5px;
     object-fit: fill;
+}
+
+/* HIGHLGHTS */
+.highlights {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5%;
+
+}
+
+.highlight-title h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+.highlight-items {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-items div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.highlight-items p {
+    color: #5b6068;
+    text-align: center;
+    font-size: 18px;
+}
+
+.highlight-items span {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.highlight-items span img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
