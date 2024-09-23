@@ -123,7 +123,7 @@ body {
 }
 
 .highlight-items p {
-    color: #5b6068;
+    color: rgba(0, 0, 0, 0.623);
     text-align: center;
     font-size: 18px;
     margin-top: 15px;
@@ -149,7 +149,7 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    height: 450px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,4 +171,48 @@ body {
     width: 50%;
     text-align: end;
     margin-top: 10px;
+}
+
+/* CTA */
+.cta {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-text {
+    background-color: #3882F6;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cta-text #cta-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.cta-text #cta-desc {
+    font-size: 20px;
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.cta button {
+    background-color: #3882F6;
+    height: 40px;
+    width: 140px;
+    border: solid;
+    border-width: 3px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
 }
